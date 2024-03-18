@@ -4,6 +4,6 @@
 
 ##EEEN3007J
 
-<br> lab1: <a href="https://github.com](https://github.com/microa/BDIC_2024_Spring/blob/main/C8051F/Lab1/key2led_asm.asm)https://github.com/microa/BDIC_2024_Spring/blob/main/C8051F/Lab1/key2led_asm.asm" target="_blank">assemble code</a> / [c code]([https://github.com](https://github.com/microa/BDIC_2024_Spring/blob/main/C8051F/Lab1/key2led_c.c)https://github.com/microa/BDIC_2024_Spring/blob/main/C8051F/Lab1/key2led_c.c)
+<br> lab1: <a href="https://github.com](https://github.com/microa/BDIC_2024_Spring/blob/main/C8051F/Lab1/key2led_asm.asm)https://github.com/microa/BDIC_2024_Spring/blob/main/C8051F/Lab1/key2led_asm.asm" target="_blank">assemble code</a> / [c_code]([https://github.com](https://github.com/microa/BDIC_2024_Spring/blob/main/C8051F/Lab1/key2led_c.c)https://github.com/microa/BDIC_2024_Spring/blob/main/C8051F/Lab1/key2led_c.c)
 
 ##EEEN3012J
