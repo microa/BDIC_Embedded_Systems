@@ -1,7 +1,8 @@
 # BDIC_2024_Spring
 
-<br> 点击右上角star星星可以收藏，页面地址变化也能找得到。
-<br> 持续更新中。。。
+<br> * 点击右上角star星星可以收藏，页面地址变化也能找得到。
+<br> * 持续更新中。。。
+<br> * 更新速度取决于本人繁忙程度。。。
 <br>
 <br> For the course EEEN3007J (Embedded Systems) & EEEN3012J (Embedded Systems and Software) of BDIC (UCD Beijing-Dublin International College)
 
