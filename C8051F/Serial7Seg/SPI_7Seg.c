@@ -64,7 +64,7 @@ void main(){
 	init_IO();		//initializing io port
 	
 	while(1){
-		Print(1234);	
+		Print(1234);	//Here is the target digit for display
 		Delay(100);
 	}
 }
