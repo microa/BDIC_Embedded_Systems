@@ -10,5 +10,5 @@
 ## EEEN3012J
 <br> lab1: [汇编版](./C8051F/Lab1/key2led_asm.asm) / [C语言版](./C8051F/Lab1/key2led_c.c)
 <br> lab2: 
-    【组件1】SPI串行7段数码管驱动: [C语言版](./C8051F/Serial7Seg/SPI_7Seg.c)
-    【组件2】ADC读取：
+    <br>【组件1】SPI串行7段数码管驱动: [C语言版](./C8051F/Serial7Seg/SPI_7Seg.c)
+    <br>【组件2】ADC读取：
