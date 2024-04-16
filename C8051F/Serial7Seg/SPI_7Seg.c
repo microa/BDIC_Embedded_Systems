@@ -1,7 +1,7 @@
 /****************************************************
-*	Describe:SPI-7Seg display						*
-*	BDIC Embedded System							*
-*	Re.Binhua, Version:16,Apr.2024					*
+*	Describe:SPI-7Seg display		*
+*	BDIC Embedded System			*
+*	Re.Binhua, Version:16,Apr.2024		*
 ****************************************************/
 #include <c8051f020.h>
 
