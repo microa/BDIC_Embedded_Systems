@@ -1,5 +1,9 @@
 /****************************************************
-*	Describe:SPI-7Seg display		*
+*	Title:SPI-7Seg display			*
+*	Port: 	P0.2:	SCK			*
+*		P0.3:	SDO			*
+*		P0.4:	SDI			*
+*		P0.7:	SS			*
 *	BDIC Embedded System			*
 *	Re.Binhua, Version:16,Apr.2024		*
 ****************************************************/
