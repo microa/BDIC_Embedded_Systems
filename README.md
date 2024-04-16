@@ -9,4 +9,4 @@
 
 ## EEEN3012J
 <br> lab1: [汇编版](./C8051F/Lab1/key2led_asm.asm) / [C语言版](./C8051F/Lab1/key2led_c.c)
-<br> lab2: 串行7段数码管驱动: [C语言版](./C8051F/Serial7Seg/SPI_7Seg.c)
+<br> lab2: SPI串行7段数码管驱动: [C语言版](./C8051F/Serial7Seg/SPI_7Seg.c)
