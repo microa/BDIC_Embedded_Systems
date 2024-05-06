@@ -11,3 +11,6 @@
 <br> Here is the equation:
 
 The fraction &frac12; represents one half, and 3&#47;4 represents three quarters.
+
+The fraction $\frac{3}{4}$ represents three quarters.
+
