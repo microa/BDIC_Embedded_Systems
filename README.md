@@ -1,15 +1,16 @@
 ## 北工大-都柏林 2024 春季
 
+For EEEN3007J & EEEN3012J
+
 <br> * 持续更新中。。。
-<br> * 点击右上角star星星可以收藏，方便跟踪
+<br> * 点击右上角star星星可以收藏
 
 
-## EEEN3007J
-<br> lab1: [汇编版](./C8051F/Lab1/key2led_asm.asm) / [C语言版](./C8051F/Lab1/key2led_c.c)
+<br> lab1: 
+    <br>【组件0】控制LED:[Code](./C8051F/Lab1/led_ctrl.c)
+    <br>【组件1】读取按键:
 
-## EEEN3012J
-<br> lab1: [汇编版](./C8051F/Lab1/key2led_asm.asm) / [C语言版](./C8051F/Lab1/key2led_c.c)
 <br> lab2: 
-    <br>【组件1】SPI-7段数码管驱动: [C语言版](./C8051F/Serial7Seg/SPI_7Seg.c)
-    <br>【组件2】IIC-7段数码管驱动：
-    <br>【组件3】ADC读取：
+    <br>【组件2】SPI-7段数码管驱动: [Code](./C8051F/Serial7Seg/SPI_7Seg.c)
+    <br>【组件3】IIC-7段数码管驱动：
+    <br>【组件4】ADC读取：
