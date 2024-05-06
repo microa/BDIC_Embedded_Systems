@@ -12,7 +12,7 @@
 
 V<sub>out</sub> = $\frac{V_{s} \cdot R_{2}}{R_{1} + R_{2}}$
 
-<br> So while the Vs = 3.3, R1 = 3.74k, R2 = 10k, the largest voltage output would be: 2.402 V
+<br> So while the Vs = 3.3v, R1 = 3.74k, R2 = 10k, the largest voltage output would be: 2.402 V
 
 <br> Note: this is a theoretical result. Only when the power source is exactly 3.3 V and every resistor was perfectly they are.
 
