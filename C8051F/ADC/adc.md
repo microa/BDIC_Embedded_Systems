@@ -10,5 +10,5 @@
 
 <br> Here is the equation:
 
-$V<sub>out</sub>\frac{V<sub>s</sub> * R<sub>2</sub>}{R<sub>1</sub> + R<sub>2</sub>}$
+V<sub>out</sub>$\frac{V<sub>s</sub> * R<sub>2</sub>}{R<sub>1</sub> + R<sub>2</sub>}$
 
