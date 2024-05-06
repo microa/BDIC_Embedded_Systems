@@ -2,5 +2,4 @@
 
 <br> The schematic of on-board adjustable voltage-divider circuit is shown on Brightspace Lab 1 - ToolStick-UniDC-UG, as below:
 
-<img src="./Sch.png" width="150px">
-<img src="./VoltageDivider.png" width="250px">
+<img src="./Sch.png" height="200px"><img src="./VoltageDivider.png" height="200px">
