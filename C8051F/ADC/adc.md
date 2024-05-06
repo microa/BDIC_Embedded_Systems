@@ -1,16 +1,19 @@
 ## ADC on ToolStick-UniDC-UG
 
-<br> The schematic of on-board adjustable voltage-divider circuit is shown on Brightspace Lab 1 - ToolStick-UniDC-UG, as below:
+<br> The schematic of the on-board adjustable voltage-divider circuit is shown on Brightspace Lab 1 - ToolStick-UniDC-UG, as below:
 
 <img src="./Sch.png" height="200px">
 
-<br> The voltage divider can be simplify as below: 
+<br> The voltage divider can be simplified as below:
 
 <img src="./VoltageDivider.png" height="200px">
 
 <br> Here is the equation:
 
-<div style="font-size: 1.2em;">V<sub>out</sub> $\frac{V_{s} \cdot R_{2}}{R_{1} + R_{2}}$</div>
+V<sub>out</sub> = $\frac{V_{s} \cdot R_{2}}{R_{1} + R_{2}}$
 
+<br> So while the Vs = 3.3, R1 = 3.74k, R2 = 10k, the largest voltage output would be: 2.402 V
+
+<br> Note: this is a theoretical result. Only when the power source is exactly 3.3 V and every resistor was perfectly they are.
 
 
