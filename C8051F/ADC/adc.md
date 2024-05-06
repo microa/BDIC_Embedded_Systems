@@ -10,6 +10,7 @@
 
 <br> Here is the equation:
 
-V<sub>out</sub> = $\frac{V_{s} \cdot R_{2}}{R_{1} + R_{2}}$
+<div style="font-size: 1.2em;">V<sub>out</sub> $\frac{V_{s} \cdot R_{2}}{R_{1} + R_{2}}$</div>
+
 
 
