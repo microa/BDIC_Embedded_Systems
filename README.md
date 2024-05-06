@@ -3,19 +3,22 @@
 <br> Extra tutorial for EEEN3007J & EEEN3012J
 
 <br> * Updating...
-<br> * 点击右上角star星星可以收藏
+<br> * More stars, more updates. ^_^   *_^
 
 
 <br> Start：
-    <br>【开始0】闪烁LED: [blinky](./C8051F/Blinky/test.c)
+    <br> [Blinky]Blinky LED: [blinky](./C8051F/Blinky/test.c)
 
 <br> lab1: 
-    <br>【组件0】控制LED: [LED](./C8051F/Lab1/led_ctrl.c)
-    <br>【组件1】读取按键:
+    <br> [Components - 0]Control LED: [LED](./C8051F/Lab1/led_ctrl.c)
+    <br> [Components - 1]Read keys:
 
 <br> lab2: 
-    <br>【组件2】SPI-7段数码管驱动: [SPI-7Seg](./C8051F/Serial7Seg/SPI_7Seg.c)
-    <br>【组件3】IIC-7段数码管驱动：
-    <br>【教程0】On-chip-ADC: [ADC-Tutorial](./C8051F/ADC/adc.md)
-    <br>【组件4】ADC读取: [ADC-Read-Once](./C8051F/ADC/adc.c)
-    
+    <br> [Components - 2]SPI-7seg-Driver: [SPI-7Seg](./C8051F/Serial7Seg/SPI_7Seg.c)
+    <br> [Components - 3]IIC-7seg-Driver：
+    <br> [Tutorials - 0]On-chip-ADC: [ADC-Tutorial](./C8051F/ADC/adc.md)
+    <br> [Components - 4]Read ADC: [ADC-Read-Once](./C8051F/ADC/adc.c)
+
+<br> Bonus:
+    <br> [Tutorials - 1]Introduction to Frequency Testing Methods: 
+    <br> [Components - 5]Read Frequencies: 
