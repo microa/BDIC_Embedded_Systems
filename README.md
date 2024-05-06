@@ -1,6 +1,6 @@
 ## BDIC 2024 Spring
 
-<br> The guidance and extra tutorial for EEEN3007J & EEEN3012J
+<br> Extra tutorial for EEEN3007J & EEEN3012J
 
 <br> * 持续更新中。。。
 <br> * 点击右上角star星星可以收藏
