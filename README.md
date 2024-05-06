@@ -2,12 +2,12 @@
 
 <br> Extra tutorial for EEEN3007J & EEEN3012J
 
-<br> * 持续更新中。。。
+<br> * Updating...
 <br> * 点击右上角star星星可以收藏
 
 
 <br> Start：
-    <br> [blinky](./C8051F/Blinky/test.c)
+    <br>【开始0】闪烁LED: [blinky](./C8051F/Blinky/test.c)
 
 <br> lab1: 
     <br>【组件0】控制LED: [LED](./C8051F/Lab1/led_ctrl.c)
@@ -16,5 +16,5 @@
 <br> lab2: 
     <br>【组件2】SPI-7段数码管驱动: [SPI-7Seg](./C8051F/Serial7Seg/SPI_7Seg.c)
     <br>【组件3】IIC-7段数码管驱动：
-    <br>【教程0】On-chip-ADC：
-    <br>【组件4】ADC读取：
+    <br>【教程0】On-chip-ADC: 
+    <br>【组件4】ADC读取: 
