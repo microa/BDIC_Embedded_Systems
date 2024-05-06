@@ -3,7 +3,7 @@
 <br> Extra tutorial for EEEN3007J & EEEN3012J
 
 <br> * Updating...
-<br> * More stars, more updates. ^\_^   *\_^
+<br> * More stars, more updates. ^\_^&nbsp;&nbsp;&nbsp;*\_^
 
 
 <br> Start：
