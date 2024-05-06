@@ -10,7 +10,5 @@
 
 <br> Here is the equation:
 
-The fraction &frac12; represents one half, and 3&#47;4 represents three quarters.
-
-The fraction $\frac{3}{4}$ represents three quarters.
+$V<sub>out</sub>\frac{V<sub>s</sub> * R<sub>2</sub>}{R<sub>1</sub> + R<sub>2</sub>}$
 
