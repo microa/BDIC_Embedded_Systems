@@ -16,5 +16,5 @@
 <br> lab2: 
     <br>【组件2】SPI-7段数码管驱动: [SPI-7Seg](./C8051F/Serial7Seg/SPI_7Seg.c)
     <br>【组件3】IIC-7段数码管驱动：
-    <br>【教程0】On-chip-ADC: 
+    <br>【教程0】On-chip-ADC: [ADC-Tutorial](./C8051F/ADC/adc.md)
     <br>【组件4】ADC读取: 
