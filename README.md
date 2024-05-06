@@ -10,7 +10,7 @@
     <br> [blinky](./C8051F/Blinky/test.c)
 
 <br> lab1: 
-    <br>【组件0】控制LED:[LED](./C8051F/Lab1/led_ctrl.c)
+    <br>【组件0】控制LED: [LED](./C8051F/Lab1/led_ctrl.c)
     <br>【组件1】读取按键:
 
 <br> lab2: 
