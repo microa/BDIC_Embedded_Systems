@@ -20,5 +20,5 @@
     <br> [Components - 4]Read ADC: [ADC-Read-Once](./C8051F/ADC/adc.c)
 
 <br> Bonus:
-    <br> [Tutorials - 1]Introduction to Frequency Measurement Methods: 
+    <br> [Tutorials - 1]Introduction: [Intro-to-Freq](./C8051F/Freq/intro_freq.md)
     <br> [Components - 5]Read Frequencies: 
