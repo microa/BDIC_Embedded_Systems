@@ -1,6 +1,6 @@
 ## Methods to frequency measurement
 
-<br>
+<br>There's a variaty of frequency measurement methods. In this page, we only discuss about the easy methods for edge device.
 
 ### Count cycles
 
