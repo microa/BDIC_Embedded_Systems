@@ -1,6 +1,6 @@
 ## ADC on ToolStick-UniDC-UG
 
-<br> The schematic of the on-board adjustable voltage-divider circuit is shown on Brightspace Lab 1 - ToolStick-UniDC-UG, as below:
+<br> The schematic of the on-board adjustable voltage-divider circuit is shown on <b>Brightspace Lab 1 - ToolStick-UniDC-UG (Page15)</b>, as below:
 
 <img src="./Sch.png" height="200px">
 
