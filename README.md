@@ -20,7 +20,6 @@
     <br> [Component - 1]Read keys: [Key](./C8051F/Blinky/key.c)
 
 <br> Onchip-ADC
-
     <br> [Component - 4]Read ADC Once: [ADC-Read-Once](./C8051F/ADC/adc.c)
 
 <br> 7-Segment-Display
@@ -28,7 +27,6 @@
     <br> [Component - 3]IIC-7seg-Driver：
 
 <br> 
-
     <br> [Component - 5]Read Frequencies: 
 
 <br> Digilent Nexys 4:
