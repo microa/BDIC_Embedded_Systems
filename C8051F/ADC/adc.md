@@ -18,4 +18,4 @@ V<sub>out</sub> = $\frac{V_{s} \cdot R_{2}}{R_{1} + R_{2}}$
 
 <br> Rescaling code:
   
-    Number = val_adc * 2402 / 4096;  //software rescaling
+    val_num = val_adc * 2402 / 4096;  //software rescaling
