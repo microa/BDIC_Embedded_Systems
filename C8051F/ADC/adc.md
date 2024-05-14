@@ -16,4 +16,8 @@ V<sub>out</sub> = $\frac{V_{s} \cdot R_{2}}{R_{1} + R_{2}}$
 
 <br> Note: this is a theoretical result. Only when the power source is exactly 3.3 V and every resistor was perfectly they are.
 
-
+<br> Rescaling code:
+  
+  '''
+  Number = ADC * 2402 / 4096;
+  '''
