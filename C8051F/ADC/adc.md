@@ -18,4 +18,4 @@ V<sub>out</sub> = $\frac{V_{s} \cdot R_{2}}{R_{1} + R_{2}}$
 
 <br> Rescaling code:
   
-  <br> Number = ADC * 2402 / 4096;
+    <br> Number = ADC * 2402 / 4096;
