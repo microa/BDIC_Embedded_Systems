@@ -7,12 +7,12 @@
 
 
 ### Silicon Labs C8051F：
-<br> Tutorials
+#### Tutorials
     <br> [Tutorial - 0]Something-U-Need-to-Know: 
     <br> [Tutorial - 1]On-chip-ADC: [ADC-Tutorial](./C8051F/ADC/adc.md)
     <br> [Tutorial - 2]Introduction: [Intro-to-Freq](./C8051F/Freq/intro_freq.md)
 
-<br> Components
+#### Components
 
 <br> Input-Output (Keys & LEDs)
     <br> [Blinky]Blinky LED: [blinky](./C8051F/Blinky/test.c)
@@ -26,8 +26,8 @@
     <br> [Component - 2]SPI-7seg-Driver: [SPI-7Seg](./C8051F/Serial7Seg/SPI_7Seg.c)
     <br> [Component - 3]IIC-7seg-Driver：
 
-<br> 
+<br> Interrupt
     <br> [Component - 5]Read Frequencies: 
 
-<br> Digilent Nexys 4:
+### Digilent Nexys 4:
     <br> 
