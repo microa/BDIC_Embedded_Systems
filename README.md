@@ -7,10 +7,10 @@
 
 
 ### Silicon Labs C8051F：
-#### Tutorials
-* [Tutorial - 0] Something-U-Need-to-Know: 
-* [Tutorial - 1] On-chip-ADC: [ADC-Tutorial](./C8051F/ADC/adc.md)
-* [Tutorial - 2] Introduction: [Intro-to-Freq](./C8051F/Freq/intro_freq.md)
+*Tutorials
+  * [Tutorial - 0] Something-U-Need-to-Know: 
+  * [Tutorial - 1] On-chip-ADC: [ADC-Tutorial](./C8051F/ADC/adc.md)
+  * [Tutorial - 2] Introduction: [Intro-to-Freq](./C8051F/Freq/intro_freq.md)
 
 #### Components
 
