@@ -12,6 +12,10 @@
 <br> [Tutorial - 1] + On-chip-ADC: [ADC-Tutorial](./C8051F/ADC/adc.md)
 <br> [Tutorial - 2] * Introduction: [Intro-to-Freq](./C8051F/Freq/intro_freq.md)
 
+- Something-U-Need-to-Know: 
++ On-chip-ADC: [ADC-Tutorial](./C8051F/ADC/adc.md)
+* Introduction: [Intro-to-Freq](./C8051F/Freq/intro_freq.md)
+
 #### Components
 
 <br> Input-Output (Keys & LEDs)
