@@ -3,6 +3,7 @@
 <br> Extra tutorial for EEEN3007J & EEEN3012J
 
 - Updating...
+- 持续更新中...
 
 #### EEEN3012J：
 lab 1
