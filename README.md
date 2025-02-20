@@ -1,9 +1,8 @@
-## BDIC 2024 Spring
+## BDIC 2025 Spring
 
 <br> Extra tutorial for EEEN3007J & EEEN3012J
 
 - Updating...
-- More stars, more updates. ^\_^
 
 #### EEEN3012J：
 lab 1
