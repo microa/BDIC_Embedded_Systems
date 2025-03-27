@@ -1,6 +1,8 @@
-
-
-
+/****************************************************
+*	Describe: Blinky 						              *
+*	BDIC Embedded System							                *
+*	Re.Binhua, Version: May.2024				          	*
+****************************************************/
 
 #include <c8051f020.h>
 
@@ -11,7 +13,7 @@
 
 
 
-#define LED_PORT 0xF0   // LED¶Ë¿ÚµØÖ·ÑÚÂë (P5.7-P5.4)
+#define LED_PORT 0xF0   // LEDç«¯å£åœ°å€æ©ç  (P5.7-P5.4)
 
 void small_delay(char count){
 
@@ -46,7 +48,7 @@ void init_Port(void){
 	P74OUT = 0x08; // Output configuration for P4-7
 
 
-	P5 |= 0x0F;    // ÉèÖÃP5.7-P5.4ÎªÍÆÍìÊä³ö,Ä¬ÈÏ¸ßµçÆ½
+	P5 |= 0x0F;    // è®¾ç½®P5.7-P5.4ä¸ºæ¨æŒ½è¾“å‡º,é»˜è®¤é«˜ç”µå¹³
 	//P5 
 	//P5 = P5 & 0xFF;
 }
@@ -70,9 +72,9 @@ void main(void)
     {
         for(i=0;i<4;i++)
         {
-            P5 = 0x55;  // µãÁÁÒ»¸öLED,ÆäÓàÏ¨Ãğ
+            P5 = 0x55;  // ç‚¹äº®ä¸€ä¸ªLED,å…¶ä½™ç†„ç­
             huge_delay(20);
-            P5 = 0x00;    // È«²¿Ï¨Ãğ
+            P5 = 0x00;    // å…¨éƒ¨ç†„ç­
             huge_delay(20);
         }
     }
