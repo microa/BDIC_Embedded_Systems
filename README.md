@@ -13,7 +13,7 @@
   <br> [Zip1](./C8051F/mcu_ide.zip.001)
   <br> [Zip2](./C8051F/mcu_ide.zip.002)
   <br> Example:
-  <br> 
+  <br> [Example](./C8051F/SLIDE/Blinky)
 
 #### IO
   <br> [Tutorial - 0]Something-U-Need-to-Know: 
