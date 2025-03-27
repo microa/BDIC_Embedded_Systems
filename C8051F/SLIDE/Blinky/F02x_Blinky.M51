@@ -1,0 +1,165 @@
+BL51 BANKED LINKER/LOCATER V6.22.2.0          03/13/2025  16:44:29  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22.2.0, INVOKED BY:
+C:\KEIL_V5\C51\BIN\BL51.EXE D:\BaiduSyncdisk\Workspace\BDIC2024Spring\C8051F\B
+>> linky\F02x_Blinky.obj TO D:\BaiduSyncdisk\Workspace\BDIC2024Spring\C8051F\B
+>> linky\F02x_Blinky RS (256) PL (68) PW (78)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  D:\BaiduSyncdisk\Workspace\BDIC2024Spring\C8051F\Blinky\F02x_Blinky.obj (F02
+>> X_BLINKY)
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C_STARTUP)
+
+
+LINK MAP OF MODULE:  D:\BaiduSyncdisk\Workspace\BDIC2024Spring\C8051F\Blinky\F
+>> 02x_Blinky (F02X_BLINKY)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            IDATA   0008H     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+                    0003H     07FDH                  *** GAP ***
+            CODE    0800H     002BH     UNIT         ?PR?MAIN?F02X_BLINKY
+            CODE    082BH     0010H     UNIT         ?PR?_BIG_DELAY?F02X_BLINK
+>> Y
+            CODE    083BH     0010H     UNIT         ?PR?_HUGE_DELAY?F02X_BLIN
+>> KY
+            CODE    084BH     000CH     UNIT         ?C_C51STARTUP
+            CODE    0857H     000AH     UNIT         ?PR?INIT_CLOCK?F02X_BLINK
+>> Y
+            CODE    0861H     0007H     UNIT         ?PR?_SMALL_DELAY?F02X_BLI
+>> NKY
+            CODE    0868H     0007H     UNIT         ?PR?INIT_PORT?F02X_BLINKY
+>> 
+
+
+
+OVERLAY MAP OF MODULE:   D:\BaiduSyncdisk\Workspace\BDIC2024Spring\C8051F\Blin
+>> ky\F02x_Blinky (F02X_BLINKY)
+
+
+SEGMENT
+  +--> CALLED SEGMENT
+---------------------
+?C_C51STARTUP
+  +--> ?PR?MAIN?F02X_BLINKY
+
+?PR?MAIN?F02X_BLINKY
+  +--> ?PR?INIT_CLOCK?F02X_BLINKY
+  +--> ?PR?INIT_PORT?F02X_BLINKY
+  +--> ?PR?_HUGE_DELAY?F02X_BLINKY
+
+?PR?_HUGE_DELAY?F02X_BLINKY
+  +--> ?PR?_BIG_DELAY?F02X_BLINKY
+
+?PR?_BIG_DELAY?F02X_BLINKY
+  +--> ?PR?_SMALL_DELAY?F02X_BLINKY
+
+
+BL51 BANKED LINKER/LOCATER V6.22.2.0        03/13/2025  16:44:29  PAGE 2
+
+
+
+SYMBOL TABLE OF MODULE:  D:\BaiduSyncdisk\Workspace\BDIC2024Spring\C8051F\Blin
+>> ky\F02x_Blinky (F02X_BLINKY)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        F02X_BLINKY
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:00FFH         PUBLIC        WDTCN
+  D:0085H         PUBLIC        P5
+  C:0857H         PUBLIC        init_Clock
+  D:00E8H         PUBLIC        ADC0CN
+  D:00A8H         PUBLIC        IE
+  C:0861H         PUBLIC        _small_delay
+  D:00D8H         PUBLIC        PCA0CN
+  D:00B8H         PUBLIC        IP
+  C:083BH         PUBLIC        _huge_delay
+  D:00C0H         PUBLIC        SMB0CN
+  C:082BH         PUBLIC        _big_delay
+  C:0800H         PUBLIC        main
+  D:00F8H         PUBLIC        SPI0CN
+  D:00B5H         PUBLIC        P74OUT
+  D:0088H         PUBLIC        TCON
+  C:0868H         PUBLIC        init_Port
+  D:00B2H         PUBLIC        OSCICN
+  D:0098H         PUBLIC        SCON0
+  D:00C8H         PUBLIC        T2CON
+  D:00D0H         PUBLIC        PSW
+  -------         PROC          _SMALL_DELAY
+  D:0007H         SYMBOL        count
+  C:0861H         LINE#         15
+  C:0861H         LINE#         18
+  C:0867H         LINE#         19
+  -------         ENDPROC       _SMALL_DELAY
+  -------         PROC          _BIG_DELAY
+  D:0005H         SYMBOL        count
+  C:082BH         LINE#         21
+  C:082DH         LINE#         22
+  C:083AH         LINE#         23
+  -------         ENDPROC       _BIG_DELAY
+  -------         PROC          _HUGE_DELAY
+  D:0004H         SYMBOL        count
+  C:083BH         LINE#         25
+  C:083DH         LINE#         26
+  C:084AH         LINE#         27
+  -------         ENDPROC       _HUGE_DELAY
+  -------         PROC          INIT_CLOCK
+  C:0857H         LINE#         29
+  C:0857H         LINE#         31
+  C:085AH         LINE#         40
+  C:0860H         LINE#         41
+  -------         ENDPROC       INIT_CLOCK
+  -------         PROC          INIT_PORT
+  C:0868H         LINE#         43
+  C:0868H         LINE#         45
+  C:086BH         LINE#         48
+  C:086EH         LINE#         51
+  -------         ENDPROC       INIT_PORT
+  -------         PROC          MAIN
+  -------         DO            
+  D:0003H         SYMBOL        i
+  -------         ENDDO         
+  C:0800H         LINE#         53
+  C:0800H         LINE#         54
+BL51 BANKED LINKER/LOCATER V6.22.2.0        03/13/2025  16:44:29  PAGE 3
+
+
+  C:0800H         LINE#         58
+  C:0803H         LINE#         59
+  C:0806H         LINE#         63
+  C:0809H         LINE#         64
+  C:080CH         LINE#         68
+  C:080CH         LINE#         69
+  C:080CH         LINE#         70
+  C:0818H         LINE#         71
+  C:0818H         LINE#         72
+  C:081BH         LINE#         73
+  C:0820H         LINE#         74
+  C:0823H         LINE#         75
+  C:0828H         LINE#         76
+  -------         ENDPROC       MAIN
+  -------         ENDMOD        F02X_BLINKY
+
+******************************************************************************
+>> 
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 0063H BYTE ( 4%) *
+>> 
+******************************************************************************
+>> 
+
+Program Size: data=9.0 xdata=0 code=114
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

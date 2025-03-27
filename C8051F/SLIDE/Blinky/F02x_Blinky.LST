@@ -1,0 +1,136 @@
+C51 COMPILER V9.59.0.0   F02X_BLINKY                                                       03/13/2025 16:44:29 PAGE 1   
+
+
+C51 COMPILER V9.59.0.0, COMPILATION OF MODULE F02X_BLINKY
+OBJECT MODULE PLACED IN F02x_Blinky.OBJ
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.exe F02x_Blinky.c DB OE INCDIR(C:\SiLabs\MCU\Inc)
+
+line level    source
+
+   1          
+   2          
+   3          #include <c8051f020.h>
+   4          
+   5          
+   6          
+   7          
+   8          #include <stdio.h>
+   9          #include <intrins.h>
+  10          
+  11          
+  12          
+  13          #define LED_PORT 0xF0   // LED端口地址掩码 (P5.7-P5.4)
+  14          
+  15          void small_delay(char count){
+  16   1      
+  17   1      
+  18   1      while(count--);
+  19   1      }
+  20          
+  21          void big_delay(char count){
+  22   1              while(count--) small_delay(255);
+  23   1      }
+  24          
+  25          void huge_delay(char count){
+  26   1              while(count--) big_delay(255);
+  27   1      }
+  28          
+  29          void init_Clock(void){
+  30   1              //-- program the INTERNAL Oscillator Control Register
+  31   1              OSCICN = 0x86; //-- 1000 0110b
+  32   1              //-- Bit 7 : Missing Clock Detector Enabled (MSCLKE = 1)
+  33   1              //-- Bit 3 : Uses Internal Osc as System Clock CLKSL = 0)
+  34   1              //-- Bit 2 : Internal Osc. enabled (IOSCEN = 1)
+  35   1              //-- Bit 1-0 : 8 MHz (IFCN1-IFCN0 set to 10)
+  36   1      
+  37   1      // OSCICN = 0x84; //-- 2 MHz
+  38   1              // OSCICN = 0x85; //-- 4 MHz
+  39   1              // OSCICN = 0x87; //-- 16 MHz
+  40   1              while ( (OSCICN & 0x10) == 0);//-- poll for IFRDY -> 1
+  41   1      }
+  42          
+  43          void init_Port(void){
+  44   1              
+  45   1              P74OUT = 0x08; // Output configuration for P4-7
+  46   1      
+  47   1      
+  48   1              P5 |= 0x0F;    // 设置P5.7-P5.4为推挽输出,默认高电平
+  49   1              //P5 
+  50   1              //P5 = P5 & 0xFF;
+  51   1      }
+  52          
+  53          void main(void)
+  54          {
+  55   1          unsigned char i;
+C51 COMPILER V9.59.0.0   F02X_BLINKY                                                       03/13/2025 16:44:29 PAGE 2   
+
+  56   1      
+  57   1              //-- disable watchdog timer
+  58   1              WDTCN = 0xDE;
+  59   1              WDTCN = 0xAD;
+  60   1      
+  61   1      
+  62   1              
+  63   1              init_Clock();
+  64   1              init_Port();
+  65   1      
+  66   1      
+  67   1          
+  68   1          while(1)
+  69   1          {
+  70   2              for(i=0;i<4;i++)
+  71   2              {
+  72   3                  P5 = 0x55;  // 点亮一个LED,其余熄灭
+  73   3                  huge_delay(20);
+  74   3                  P5 = 0x00;    // 全部熄灭
+  75   3                  huge_delay(20);
+  76   3              }
+  77   2          }
+  78   1      }
+  79          
+  80          
+  81          
+  82          
+  83          /*
+  84          //--------------------------------------------------------------
+  85          void Init_ADC1(void)
+  86          {
+  87          REF0CN = 0x03; //-- Enable internal bias generator and
+  88          // internal reference buffer
+  89          // Select ADC1 reference from VREF1 pin
+  90          ADC1CF = 0x81; //-- SAR1 conversion clock=941KHz
+  91          // approx., Gain=1
+  92          AMX1SL = 0x00; //-- Select AIN1.0 input
+  93          ADC1CN = 0x82; //-- enable ADC1, Continuous Tracking
+  94          // Mode, Conversion initiated on Timer
+  95          // 3 overflow
+  96          }
+  97          //--------------------------------------------------------------
+  98          //--------------------------------------------------------------
+  99          // Interrupt Service Routine
+ 100          void Timer3_ISR (void) interrupt 14
+ 101          {
+ 102          TMR3CN &= ~(0x80); //-- clear TF3 flag
+ 103          //-- wait for ADC1 conversion to be over
+ 104          while ( (ADC1CN & 0x20) == 0); //-- poll for AD1INT-->1
+ 105          ADC1_reading = ADC1; //-- read ADC1 data
+ 106          ADC1CN &= 0xDF; //-- clear AD1INT
+ 107          }
+ 108          //--------------------------------------------------------------
+ 109          */
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     99    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+C51 COMPILER V9.59.0.0   F02X_BLINKY                                                       03/13/2025 16:44:29 PAGE 3   
+
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

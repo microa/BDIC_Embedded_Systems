@@ -1,0 +1,14 @@
+
+BL51 BANKED LINKER/LOCATER V6.22.2.0 - SN: Eval Version
+COPYRIGHT ARM Germany GmbH 1987 - 2017
+"D:\BaiduSyncdisk\Workspace\BDIC2024Spring\C8051F\Blinky\F02x_Blinky.obj"  TO "D:\BaiduSyncdisk\Workspace\BDIC2024Spring\C8051F\Blinky\F02x_Blinky" RS(256) PL(68) PW(78) 
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 0063H BYTE ( 4%) *
+******************************************************************************
+
+>> 
+>> 
+>> 
+Program Size: data=9.0 xdata=0 code=114
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)
