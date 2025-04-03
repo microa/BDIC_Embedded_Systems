@@ -46,5 +46,9 @@ BDIC嵌入式教程(番外篇) <br>
 <br> 
 
 ### FPGA
-5月前更新
+Vivado Software:  
+通过网盘分享的文件：Xilinx_Vivado_SDK_2016.4_0124_1.tar.gz  
+链接: https://pan.baidu.com/s/1VkoxG1Fo51nRL4K2KW_yMg 提取码: diw3  
+  
+4月15日前更新  
 
