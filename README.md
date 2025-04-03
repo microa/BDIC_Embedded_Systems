@@ -34,17 +34,17 @@ BDIC嵌入式教程(番外篇) <br>
 
 #### 7SEG-Display
   [Component - 2]SPI-7seg-Driver: [SPI-7Seg](./C8051F/Serial7Seg/SPI_7Seg.c) <br> 
-  [Component - 3]IIC-7seg-Driver：<br> 
+  [Component - 3]IIC-7seg-Driver：不一定更新，可以直接使用SPI方式<br> 
 
 <br> 
 
 #### PWM - Frequency
   [Tutorial - 2] Introduction: [Intro-to-Freq](./C8051F/Freq/intro_freq.md) <br> 
-  [Component - 5]Read Frequencies:  <br> 
+  [Component - 5]Read Frequencies: 4月8日前更新 <br> 
   <br> 
 
 <br> 
 
 ### FPGA
-
+5月前更新
 
