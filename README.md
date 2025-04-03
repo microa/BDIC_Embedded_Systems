@@ -10,6 +10,7 @@ BDIC嵌入式教程(番外篇) <br>
 
 ### MCU
 #### Silicon Labs IDE
+  如果遇到编译器无法运行的情况，可以使用Silicon Labs IDE编译器：  
   Software: <br>
   [Zip1](./C8051F/mcu_ide.zip.001) <br> 
   [Zip2](./C8051F/mcu_ide.zip.002) <br> 
