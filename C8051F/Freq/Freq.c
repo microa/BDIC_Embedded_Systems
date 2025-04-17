@@ -8,6 +8,12 @@
 *   Binhua, Re:17,Apr.2025                    *
 ****************************************************/
 
+/* ---------- 基本类型 ---------- */
+typedef unsigned char  u8;
+typedef unsigned int   u16;
+typedef   signed int   s16;
+
+
 /* ---------- ADC 差分采样 ---------- */
 static void init_ADC(void){
     REF0CN=0x03; AMX0CF=0x02; ADC0CF=0x04; AMX0SL=0x02; ADC0CN=0x80;
