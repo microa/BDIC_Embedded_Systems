@@ -73,8 +73,8 @@ static void enable_xtal(void){
 
 /* ---------- 初始化 ---------- */
 static void init_all(){
-    dis_wdt();
-    init_IO();
+    dis_wdt();  //init_system, 即系统watchdog
+    init_IO();  //数码管显示的初始化
     init_ADC();
     enable_xtal();
     init_timer2();
