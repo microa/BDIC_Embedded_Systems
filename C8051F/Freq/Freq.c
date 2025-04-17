@@ -1,6 +1,10 @@
 /****************************************************
 *	Title: Functions for Zero-Cross Freq Test		*
 *	BDIC Embedded System	     		*
+*   Module ports: V-   : GND
+*                 V+   : VDD
+*                 PWM  : AN0.3
+*                 GND  : AGND
 *	Binhua, Re:17,Apr.2025		    *
 ****************************************************/
 
