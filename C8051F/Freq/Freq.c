@@ -3,7 +3,7 @@
 *	BDIC Embedded System	     		*
 *   Module ports: V-   : GND
 *                 V+   : VDD
-*                 PWM  : AN0.3
+*                 PWM  : AIN0.3
 *                 GND  : AGND
 *	Binhua, Re:17,Apr.2025		    *
 ****************************************************/
