@@ -10,7 +10,7 @@
 
 ### MCU
 #### Silicon Labs IDE
-  如果遇到编译器无法运行的情况，可以使用Silicon Labs IDE编译器：  
+  If you encounter issues with Keil IDE, you can use the Silicon Labs IDE as an alternative for compilation.   
   Software:  
   [Zip1](./C8051F/mcu_ide.zip.001)  
   [Zip2](./C8051F/mcu_ide.zip.002)  
@@ -34,7 +34,7 @@
 
 #### 7SEG-Display
   [Component - 2]SPI-7seg-Driver: [SPI-7Seg](./C8051F/Serial7Seg/SPI_7Seg.c)  
-  [Component - 3]IIC-7seg-Driver：不一定更新，可以直接使用SPI方式  
+  [Component - 3]IIC-7seg-Driver：  
 
 <br> 
 
@@ -42,7 +42,7 @@
   [Tutorial - 2] Introduction: [Intro-to-Freq](./C8051F/Freq/intro_freq.md)  
   [Component - 5]Read Frequencies(代码已测试): [Freq-related-functions](./C8051F/Freq/Freq.c)  
   提供的函数包已经完成了绝大部分工作，简单的调用和编写部分逻辑来实现过零法频率测量即可。  
-  重点是理解这个方法的逻辑和原理，其详解会在上面的[Tutorial - 2] Introduction中介绍，近两天会更新————当然，Brightspace上的其实是最完整且最严谨的教程。  
+  重点是理解这个方法的逻辑和原理，其详解会在[Tutorial - 2]中介绍，5月8日前更新————当然，Brightspace上已经有最完整且最严谨的教程。  
 
 <br> 
 
