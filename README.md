@@ -12,7 +12,6 @@
 #### Silicon Labs IDE
   If you encounter issues with Keil IDE, you can use the Silicon Labs IDE as an alternative for compilation.   
   Software:  
-  通过网盘分享的文件：mcu_ide.exe  
   链接: https://pan.baidu.com/s/1cCPOPIQJThbBrHRpQttSMw 提取码: 6rk3  
   Example:  
   [Example](./C8051F/SLIDE/Blinky)  
@@ -47,8 +46,7 @@
 <br> 
 
 ### FPGA
-Vivado Software:  
-通过网盘分享的文件：Xilinx_Vivado_SDK_2016.4_0124_1.tar.gz  
+Vivado Software:    
 链接: https://pan.baidu.com/s/1VkoxG1Fo51nRL4K2KW_yMg 提取码: diw3  
     
 
