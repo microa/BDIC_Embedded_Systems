@@ -39,9 +39,7 @@
 
 #### PWM - Frequency
   [Tutorial - 2] Introduction: [Intro-to-Freq](./C8051F/Freq/intro_freq.md)  
-  [Component - 5]Read Frequencies(代码已测试): [Freq-related-functions](./C8051F/Freq/Freq.c)  
-  提供的函数包已经完成了绝大部分工作，简单的调用和编写部分逻辑来实现过零法频率测量即可。  
-  重点是理解这个方法的逻辑和原理，其详解会在[Tutorial - 2]中介绍，5月10日前更新————当然，Brightspace上已经有最完整且最严谨的教程。  
+  [Component - 5]Read Frequencies(代码已测试): [Freq-related-functions](./C8051F/Freq/Freq.c)   
 
 <br> 
 
