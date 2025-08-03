@@ -3,9 +3,6 @@
 **Extra tutorial for EEEN3007J & EEEN3012J**  
 **BDIC嵌入式教程(番外篇)**  
 
-- Updating...
-- 持续更新中...
-
 <br> 
 
 ### MCU
